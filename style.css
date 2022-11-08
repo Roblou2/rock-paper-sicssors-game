@@ -96,7 +96,10 @@ color:fuchsia
     background-color: black;
     color: yellow;
 }
-.head {
+.head, .numbers {
     background-color: black;
     color: fuchsia;
+}
+.player-score, .comp-score {
+    font-size: 25px;
 }
