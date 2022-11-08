@@ -11,8 +11,13 @@
                                           //get random choice from computer with this function
     }
 
+    const background = document.querySelector('body')
+    
+    background.style.backgroundImage.filter="contrast(50%)"
 
+  
 
+  
         
 
 //these call the playRound function each time a button is clicked

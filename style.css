@@ -1,3 +1,7 @@
+body {
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(jigsaw.png);
+}
+
 h1, h2, h3 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -8,7 +12,7 @@ h1, h2, h3 {
     display: flex;
     justify-content: center;
     gap: 10vw;
-   
+   body
 }
 
 .title {
@@ -17,7 +21,12 @@ h1, h2, h3 {
 #score {
     gap: 10 vw;
     margin-top: 10vh;
+    
 
+}
+
+h2 {
+    font-size: 30px;
 }
 
 .comment {
@@ -28,7 +37,7 @@ color:fuchsia
 .reset {
     display: flex;
     justify-content: center;
-   
+   margin: auto;
 }
 
 .reset > #reset {
@@ -81,4 +90,13 @@ color:fuchsia
     border-radius: 50%;
     color: black;
 
+}
+/* span classes*/
+.lower {
+    background-color: black;
+    color: yellow;
+}
+.head {
+    background-color: black;
+    color: fuchsia;
 }
