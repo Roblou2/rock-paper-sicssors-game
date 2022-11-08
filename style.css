@@ -64,12 +64,12 @@ color:fuchsia
 
 #scissors {
     background-image: url("scissors.png");
-    background-size: cover;
+    background-size:cover;
     width: 80%;
     height: 70%;
     font-size: 5vw;
     border-radius: 50%;
-    color: orange;
+    color: blue;
 }
 #rock {
     background-image: url("rock.png");
