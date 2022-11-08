@@ -8,7 +8,7 @@ h1, h2, h3 {
     display: flex;
     justify-content: center;
     gap: 10vw;
-    margin: auto;
+   
 }
 
 .title {
@@ -45,7 +45,7 @@ color:fuchsia
 
 #one, #two, #three {
     width: 20vw;
-    height: 200px;
+    height: 20vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,9 +53,32 @@ color:fuchsia
  
 }
 
-#rock, #paper, #scissors {
+#scissors {
+    background-image: url("scissors.png");
+    background-size: cover;
     width: 80%;
-   background-color :aquamarine;
-    font-size: 22px;
+    height: 70%;
+    font-size: 5vw;
     border-radius: 50%;
+    color: orange;
+}
+#rock {
+    background-image: url("rock.png");
+    background-size: cover;
+    width: 80%;
+    height: 70%;
+    font-size: 5vw;
+    border-radius: 50%;
+    color: yellow;
+}
+
+#paper {
+    background-image: url("paper.png");
+    background-size: cover;
+    width: 80%;
+    height: 70%;
+    font-size: 5vw;
+    border-radius: 50%;
+    color: black;
+
 }
