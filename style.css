@@ -8,8 +8,7 @@ h1, h2, h3 {
     display: flex;
     justify-content: center;
     gap: 10vw;
-    margin-top: 18vh;
-    margin-bottom: 10vh;
+    margin: auto;
 }
 
 .title {
@@ -45,11 +44,12 @@ color:fuchsia
 }
 
 #one, #two, #three {
-    width: 400px;
+    width: 20vw;
     height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
+   
  
 }
 
