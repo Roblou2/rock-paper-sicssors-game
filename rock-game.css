@@ -1,0 +1,61 @@
+h1, h2, h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    margin-top: 18vh;
+    margin-bottom: 10vh;
+}
+
+.title {
+    padding-top: 5vh;
+}
+#score {
+    gap: 10 vw;
+    margin-top: 10vh;
+
+}
+
+.comment {
+padding-top: 5vh;
+color:fuchsia
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.reset > #reset {
+    width: 20%;
+    color: orange;
+    font-size: 22px;
+    border-radius: 30%;
+}
+
+.lose, .win {
+    padding-top: 10vh;
+    color: blue;
+}
+
+#one, #two, #three {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+#rock, #paper, #scissors {
+    width: 80%;
+   background-color :aquamarine;
+    font-size: 22px;
+    border-radius: 50%;
+}
